@@ -1,23 +1,23 @@
 {
-  "name": "hubot-reddit",
-  "description": "Reddit integration with Hubot",
+  "name": "hubot-4chan",
+  "description": "4chan integration with Hubot",
   "version": "0.0.1",
-  "author": "Enrique Vidal <enrique@cloverinteractive.com>",
+  "author": "Juan Pablo Ortiz <pablasso@gmail.com>",
   "license": "MIT",
 
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "reddit"
+    "4chan"
   ],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/pablasso/hubot-reddit.git"
+    "url": "git://github.com/pablasso/hubot-4chan.git"
   },
 
   "bugs": {
-    "url": "https://github.com/pablasso/hubot-reddit/issues"
+    "url": "https://github.com/pablasso/hubot-4chan/issues"
   },
 
   "dependencies": {
