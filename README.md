@@ -1,32 +1,30 @@
-# hubot-reddit
+# hubot-4chan
 
-Reddit integration with Hubot.
-
-This Hubot script was originally created by [Enrique Vidal](https://github.com/EnriqueVidal) for the old centralized Hubot.
+4chan integration with Hubot.
 
 ## Installation
 
-In hubot project repo, run:
+In a hubot project, run:
 
-`npm install hubot-reddit --save`
+`npm install hubot-4chan --save`
 
-Then add **hubot-reddit** to your `external-scripts.json`:
+Then add **hubot-4chan** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-reddit"
+  "hubot-4chan"
 ]
 ```
 
 ## Usage
 
-The command `hubot reddit me <subreddit> [limit]` will retrieve the latests posts from the `subreddit`.
+The command `hubot 4chan me <board> [limit]` returns results from the 4chan board specified.
 
 For example:
 
 ```
-user1>> hubot reddit me gifs 3
-hubot>> http://example.com/example1.gif
-hubot>> http://example.com/example2.gif
-hubot>> http://example.com/example3.gif
+user1>> hubot 4chan me b 3
+hubot>> http://example.com/example1.gif - This is a sample - http://example.com/b/thread1
+hubot>> http://example.com/example2.gif - This is a sample - http://example.com/b/thread2
+hubot>> http://example.com/example3.gif - This is a sample - http://example.com/b/thread3
 ```
